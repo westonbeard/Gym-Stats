@@ -2,7 +2,7 @@ class CreateGyms < ActiveRecord::Migration
   def change
     create_table :gyms do |t|
       t.string :name
-      t.varchar :address
+      t.string :address
 
       t.timestamps null: false
     end
