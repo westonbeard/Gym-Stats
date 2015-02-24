@@ -669,3 +669,88 @@ OAuth::Unauthorized (401 Authorization Required):
   Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
   Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
   Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (47.7ms)
+
+
+Started GET "/" for ::1 at 2015-02-23 19:06:48 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 137ms (Views: 135.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/gyms-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-02-23 19:06:49 -0500
+
+
+Started DELETE "/users/1" for ::1 at 2015-02-23 19:06:56 -0500
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dAaZbUGVle02cfEGTNfghHdCgu4itx5sPVYbDKMyibV2ejVVnz5ak34OMmiBXhVLbvacgqGpjVtchoxZC3Z6FA==", "id"=>"1"}
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 1]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 9ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/users" for ::1 at 2015-02-23 19:06:56 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 161ms (Views: 158.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/gyms-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-02-23 19:06:56 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-23 19:06:56 -0500
