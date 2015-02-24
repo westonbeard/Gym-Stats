@@ -1,6 +1,8 @@
 <p id="notice"><%= notice %></p>
 
+<div id="twitter_login">
 <%= link_to "Sign in with Twitter", "/auth/twitter?force_login=true" %>
+</div>
 
 <h1>Listing Users</h1>
 
@@ -16,6 +18,7 @@
   </thead>
 
   <tbody>
+
     <% @users.each do |user| %>
       <tr>
         <td><%= user.first_name %></td>
