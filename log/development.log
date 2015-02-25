@@ -1818,3 +1818,104 @@ Completed 200 OK in 507ms (Views: 0.9ms | ActiveRecord: 0.0ms)
 Started GET "/" for ::1 at 2015-02-25 10:55:40 -0500
 Processing by HomeController#search as HTML
 Completed 200 OK in 573ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:38:05 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#search as HTML
+Completed 200 OK in 599ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:43:41 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 608ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:44:01 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 508ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:44:20 -0500
+
+SyntaxError (/Users/weston/Desktop/Project_3/app/controllers/home_controller.rb:7: syntax error, unexpected ':', expecting keyword_end
+		json: Yelp.client.search('Washington D.C.', parameters)
+		     ^):
+  app/controllers/home_controller.rb:7: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:44:30 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 397ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:45:54 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 345ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:45:56 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 413ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:48:50 -0500
+Processing by HomeController#search as HTML
+Completed 500 Internal Server Error in 82ms
+
+Yelp::Error::InvalidParameter (One or more parameters are invalid in request):
+  app/controllers/home_controller.rb:7:in `search'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (15.9ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (56.6ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:49:31 -0500
+Processing by HomeController#search as HTML
+Completed 500 Internal Server Error in 54ms
+
+Yelp::Error::InvalidParameter (One or more parameters are invalid in request):
+  app/controllers/home_controller.rb:7:in `search'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (13.6ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (54.2ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:51:14 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 420ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:52:54 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 519ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:53:06 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 566ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:53:35 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 595ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-25 11:54:02 -0500
+Processing by HomeController#search as HTML
+Completed 200 OK in 696ms (Views: 1.4ms | ActiveRecord: 0.0ms)

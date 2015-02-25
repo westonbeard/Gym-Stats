@@ -7,4 +7,4 @@ Yelp.client.configure do |config|
   config.token_secret = ENV['token_secret']
 end
 
-Yelp.client.search('Washington D.C.', { term: 'food' })
+# Yelp.client.search('Washington D.C.', { term: 'food' })
