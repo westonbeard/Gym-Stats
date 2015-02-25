@@ -3,7 +3,22 @@ class HomeController < ApplicationController
 	end
 
 	def search
-		parameters = { term: params[:term], limit: 10, category_filter: 'fitness' }
-		render json: Yelp.client.search('Washington D.C.', parameters)
+		parameters = { term: params[:term],
+									 limit: 10,
+							 		 category_filter: 'fitness',
+							 		 sort: 0 }
+
+		@response = Yelp.client.search('Washington D.C.', parameters).to_json
+			respond_to do |format|
+				format.json{render json: @response}
+				
+			end
+		# if @response
+		# 	redirect_to :home
+		# end
+
+	end
+
+	def show
 	end
 end

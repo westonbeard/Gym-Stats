@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root 'home#search'
+  
+  root 'home#index'
+  get '/apidata', to: 'home#search'
   
   get '/auth/:twitter/callback', to: 'sessions#create'
   get '/auth/failure', to: redirect('/')
@@ -8,6 +10,8 @@ Rails.application.routes.draw do
   resources :gyms
 
   resources :users
+
+  resources :home
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
