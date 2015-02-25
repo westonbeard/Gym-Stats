@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'yelp', require: 'yelp'
 gem 'figaro'
 gem 'omniauth'
-gem 'omniauth-twitter'
+gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use postgresql as the database for Active Record

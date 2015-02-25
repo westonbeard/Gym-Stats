@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  term: MyString
+  category_filter: 
+  sort: 
+  radius_filter: 
+  location: MyString
+  latitude: 
+  longitude: 
+  sw_latitude: 
+  sw_longitude: 
+  ne_latitude: MyString
+  double: MyString
+  ne_longitude: 
+
+two:
+  term: MyString
+  category_filter: 
+  sort: 
+  radius_filter: 
+  location: MyString
+  latitude: 
+  longitude: 
+  sw_latitude: 
+  sw_longitude: 
+  ne_latitude: MyString
+  double: MyString
+  ne_longitude: 

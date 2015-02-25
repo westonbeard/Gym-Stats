@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'users#index'
+  root 'home#search'
   
   get '/auth/:twitter/callback', to: 'sessions#create'
   get '/auth/failure', to: redirect('/')
