@@ -1,4 +1,4 @@
-class HomeController < Application::Base
+class HomeController < ApplicationController
 	def index
 	end
 
