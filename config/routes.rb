@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   
   root 'home#index'
   get '/apidata', to: 'home#search'
-  
+  get '/temp', to: 'home#temp'
+
   get '/auth/:twitter/callback', to: 'sessions#create'
   get '/auth/failure', to: redirect('/')
   get '/signout' => 'sessions#destroy', :as => :signout

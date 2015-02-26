@@ -21,4 +21,9 @@ class HomeController < ApplicationController
 
 	def show
 	end
+
+	def temp
+	end
+
+
 end
