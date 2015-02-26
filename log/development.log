@@ -5477,3 +5477,491 @@ Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 
 
 
 Started GET "/assets/application-ec7769b96d08dd1b1b8d2c301d85c380.js?body=1" for ::1 at 2015-02-26 12:04:48 -0500
+
+
+Started GET "/" for ::1 at 2015-02-26 12:59:55 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (18.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 350ms (Views: 329.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 12:59:56 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 12:59:56 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 12:59:56 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 12:59:57 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 12:59:57 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 12:59:57 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 12:59:57 -0500
+
+
+Started GET "/assets/application-ec7769b96d08dd1b1b8d2c301d85c380.js?body=1" for ::1 at 2015-02-26 12:59:57 -0500
+
+
+Started GET "/" for ::1 at 2015-02-26 13:03:55 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 180ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:03:56 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:03:56 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:03:56 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:03:56 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:03:56 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:03:56 -0500
+
+
+Started GET "/assets/application-1a1e97d85bf9de5f6eed888cc47a9b47.js?body=1" for ::1 at 2015-02-26 13:03:56 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:03:56 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:05:57 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:05:57 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:05:57 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:05:57 -0500
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-02-26 13:06:03 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 581ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-26 13:30:29 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 282ms (Views: 276.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:30:29 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:30:29 -0500
+
+
+Started GET "/assets/application-1a892fcfe571c1ec0280f12a344adc78.js?body=1" for ::1 at 2015-02-26 13:30:29 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:30:29 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:30:29 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:30:29 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:30:29 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:30:29 -0500
+
+
+Started GET "/" for ::1 at 2015-02-26 13:30:34 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 114ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:30:34 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:30:34 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:30:34 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:30:34 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:30:34 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:30:34 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:30:34 -0500
+
+
+Started GET "/" for ::1 at 2015-02-26 13:31:07 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 143ms (Views: 142.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-1e79d3f30f38b9efc612a248ca180b9f.js?body=1" for ::1 at 2015-02-26 13:31:07 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:31:07 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:31:07 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:31:07 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:31:07 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:31:07 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:31:07 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:31:07 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:31:19 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:31:19 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:31:19 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:31:19 -0500
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-02-26 13:31:21 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 447ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-26 13:31:43 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 145ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:31:44 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:31:44 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:31:44 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:31:44 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:31:44 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:31:44 -0500
+
+
+Started GET "/assets/application-1e79d3f30f38b9efc612a248ca180b9f.js?body=1" for ::1 at 2015-02-26 13:31:44 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:31:44 -0500
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-02-26 13:31:48 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 460ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-26 13:33:41 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 165ms (Views: 163.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-3c4e32f65feb82b9a514e53ec0316a0c.js?body=1" for ::1 at 2015-02-26 13:33:41 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:33:41 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:33:41 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:33:41 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:33:41 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:33:41 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:33:41 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:33:41 -0500
+
+
+Started GET "/" for ::1 at 2015-02-26 13:34:06 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 174ms (Views: 172.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:34:06 -0500
+
+
+Started GET "/assets/application-e9e84def3405261787ba34204cd0c1e7.js?body=1" for ::1 at 2015-02-26 13:34:06 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:34:06 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:34:06 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:34:06 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:34:06 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:34:06 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:34:07 -0500
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-02-26 13:34:20 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 439ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-26 13:34:51 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 167ms (Views: 166.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:34:52 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:34:52 -0500
+
+
+Started GET "/assets/application-0c7ff16ce30e2a1bd81b0f711becae20.js?body=1" for ::1 at 2015-02-26 13:34:52 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:34:52 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:34:52 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:34:52 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:34:52 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:34:52 -0500
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-02-26 13:34:57 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 429ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-26 13:38:02 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 123ms (Views: 121.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:38:03 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:38:03 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:38:03 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:38:03 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:38:03 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:38:03 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:38:03 -0500
+
+
+Started GET "/assets/application-0c7ff16ce30e2a1bd81b0f711becae20.js?body=1" for ::1 at 2015-02-26 13:38:03 -0500
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-02-26 13:38:16 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 564ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:38:22 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:38:22 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:38:22 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:38:22 -0500
+
+
+Started GET "/" for ::1 at 2015-02-26 13:39:33 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 378ms (Views: 375.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:39:33 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:39:33 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:39:33 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:39:33 -0500
+
+
+Started GET "/assets/application-b539873c98007886be667b1936b118c5.js?body=1" for ::1 at 2015-02-26 13:39:34 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:39:34 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:39:34 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:39:34 -0500
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-02-26 13:39:40 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 358ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-26 13:40:44 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 340ms (Views: 338.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:40:45 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:40:45 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:40:45 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:40:45 -0500
+
+
+Started GET "/assets/application-fdfe9fae763008e737b93330170be252.js?body=1" for ::1 at 2015-02-26 13:40:45 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:40:45 -0500
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:40:45 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:40:45 -0500
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-02-26 13:40:56 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 467ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-26 13:43:23 -0500
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 353ms (Views: 350.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:43:23 -0500
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-02-26 13:43:23 -0500
+
+
+Started GET "/assets/application-967b595677de107eb775c7483f952d81.css?body=1" for ::1 at 2015-02-26 13:43:23 -0500
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 13:43:23 -0500
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 13:43:23 -0500
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 13:43:23 -0500
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 13:43:23 -0500
+
+
+Started GET "/apidata.json?term=barre+studio" for ::1 at 2015-02-26 13:43:40 -0500
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"barre studio"}
+Completed 200 OK in 476ms (Views: 0.2ms | ActiveRecord: 0.0ms)
