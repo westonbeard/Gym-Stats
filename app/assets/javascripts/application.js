@@ -49,6 +49,7 @@ $('#searching_yelp').on('submit',function(e) {
 	         var name = $('<h1>').text(data.businesses[i].name);
 	         var rating = $('<p>').text(data.businesses[i].rating);
 	         var rating_img_url_small = $('<p>').text(data.businesses[i].rating_img_url_small);
+            var neighborhood = $('<p>').text(data.businesses[i].location.neighborhoods);
             var latitude = data.businesses[i].location.coordinate.latitude;
             var longitude = data.businesses[i].location.coordinate.longitude;
             var marker = new google.maps.Marker({
@@ -60,7 +61,8 @@ $('#searching_yelp').on('submit',function(e) {
 	         $('#info')
 	            .append(name)
 	            .append(rating)
-	            .append(rating_img_url_small);
+              .append(neighborhood)
+	            // .append(rating_img_url_small);
       	};
       },
       type: 'GET'
