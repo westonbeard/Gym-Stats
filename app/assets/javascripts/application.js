@@ -27,7 +27,6 @@ function initialize() {
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
-    
 
 
 $('#searching_yelp').on('submit',function(e) {
@@ -58,10 +57,11 @@ $('#searching_yelp').on('submit',function(e) {
                title: data.businesses[i].name
             });
 
-	         $('#info')
+	         $('#info_ul')
 	            .append(name)
 	            .append(rating)
               .append(neighborhood)
+              .append('<img src="rating_img_url_small">')
 	            // .append(rating_img_url_small);
       	};
       },

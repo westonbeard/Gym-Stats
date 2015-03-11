@@ -33,6 +33,10 @@ html, body, #map-canvas {
 	display:inline-block;
 }
 
+#info_ul h1{
+	line-height: 22px;
+}
+
 form{
 	width:500px;
 	margin:50px auto;
