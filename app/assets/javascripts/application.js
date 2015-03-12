@@ -47,7 +47,7 @@ $('#searching_yelp').on('submit',function(e) {
   		for (var i=0;i<data.businesses.length; i++){
 	         var name = $('<h1>').text(data.businesses[i].name);
 	         var rating = $('<p>').text(data.businesses[i].rating);
-	         var rating_img_url_small = $('<p>').text(data.businesses[i].rating_img_url_small);
+	         var rating_img_url_small = data.businesses[i].rating_img_url_small;
           var neighborhood = $('<p>').text(data.businesses[i].location.neighborhoods);
           var latitude = data.businesses[i].location.coordinate.latitude;
           var longitude = data.businesses[i].location.coordinate.longitude;
