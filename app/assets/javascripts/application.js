@@ -48,20 +48,20 @@ $('#searching_yelp').on('submit',function(e) {
 	         var name = $('<h1>').text(data.businesses[i].name);
 	         var rating = $('<p>').text(data.businesses[i].rating);
 	         var rating_img_url_small = $('<p>').text(data.businesses[i].rating_img_url_small);
-            var neighborhood = $('<p>').text(data.businesses[i].location.neighborhoods);
-            var latitude = data.businesses[i].location.coordinate.latitude;
-            var longitude = data.businesses[i].location.coordinate.longitude;
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(latitude,longitude),
-                map: map,
-               title: data.businesses[i].name
+          var neighborhood = $('<p>').text(data.businesses[i].location.neighborhoods);
+          var latitude = data.businesses[i].location.coordinate.latitude;
+          var longitude = data.businesses[i].location.coordinate.longitude;
+          var marker = new google.maps.Marker({
+              position: new google.maps.LatLng(latitude,longitude),
+              map: map,
+             title: data.businesses[i].name
             });
 
 	         $('#info_ul')
 	            .append(name)
 	            .append(rating)
               .append(neighborhood)
-              .append('<img src="rating_img_url_small">')
+              .append('<img src="' + rating_img_url_small + '">')
 	            // .append(rating_img_url_small);
       	};
       },

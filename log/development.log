@@ -11276,3 +11276,1188 @@ ActionController::RoutingError (No route matches [GET] "/rating_img_url_small"):
   Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
   Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.9ms)
   Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (98.8ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 22:51:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (7.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 294ms (Views: 269.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-89fcba259d9a99f6756e8f469a5b18a2.css?body=1" for ::1 at 2015-03-11 22:51:53 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:51:53 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:51:54 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:51:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:51:54 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:51:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:51:54 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:51:54 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 22:52:08 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 105ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:52:08 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:52:08 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:52:08 -0400
+
+
+Started GET "/assets/application-89fcba259d9a99f6756e8f469a5b18a2.css?body=1" for ::1 at 2015-03-11 22:52:08 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:52:08 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:52:08 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:52:08 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:52:08 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 22:52:17 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 125ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-a1f4bf0f8ae145a0d9673a252bf2bd39.css?body=1" for ::1 at 2015-03-11 22:52:18 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:52:18 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:52:18 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:52:18 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:52:18 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:52:18 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:52:18 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:52:18 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 22:53:04 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 145ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:53:04 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:53:04 -0400
+
+
+Started GET "/assets/application-0a12238d74e01d3f43309b1e362c8153.css?body=1" for ::1 at 2015-03-11 22:53:04 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:53:04 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:53:04 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:53:04 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:53:04 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:53:04 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 22:53:14 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 163ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-1c7fc05ba94b5082f2ac8e83b8ebc298.css?body=1" for ::1 at 2015-03-11 22:53:15 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:53:15 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:53:15 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:53:15 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:53:15 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:53:15 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:53:15 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:53:15 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 22:53:30 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 124ms (Views: 123.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:53:30 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:53:30 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:53:30 -0400
+
+
+Started GET "/assets/application-1c7fc05ba94b5082f2ac8e83b8ebc298.css?body=1" for ::1 at 2015-03-11 22:53:30 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:53:30 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:53:30 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:53:30 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:53:30 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 22:53:58 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 109ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:53:59 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:53:59 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:53:59 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:53:59 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:53:59 -0400
+
+
+Started GET "/assets/application-1c7fc05ba94b5082f2ac8e83b8ebc298.css?body=1" for ::1 at 2015-03-11 22:53:59 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:53:59 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:53:59 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 22:55:13 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 166ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:55:13 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:55:13 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:55:13 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:55:13 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:55:13 -0400
+
+
+Started GET "/assets/application-bf5ff851081dd2f78a8e5352120a9fbc.css?body=1" for ::1 at 2015-03-11 22:55:13 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:55:13 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:55:13 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 22:55:36 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 146ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 22:55:36 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:55:36 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:55:36 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:55:36 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:55:36 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:55:36 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:55:36 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:55:36 -0400
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-03-11 22:55:41 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 534ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rating_img_url_small" for ::1 at 2015-03-11 22:55:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/rating_img_url_small"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.6ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (17.4ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (91.4ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:55:53 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:55:53 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:55:53 -0400
+
+
+Started GET "/apidata.json?term=yoga" for ::1 at 2015-03-11 22:56:09 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"yoga"}
+Completed 200 OK in 490ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rating_img_url_small" for ::1 at 2015-03-11 22:56:10 -0400
+
+ActionController::RoutingError (No route matches [GET] "/rating_img_url_small"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (4.1ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (62.3ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 22:59:16 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 116ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 22:59:16 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:59:16 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 22:59:16 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 22:59:16 -0400
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 22:59:16 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 22:59:16 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 22:59:16 -0400
+
+
+Started GET "/assets/application-9c33d93289f49b084bd0c74598b23617.js?body=1" for ::1 at 2015-03-11 22:59:16 -0400
+
+
+Started GET "/json" for ::1 at 2015-03-11 23:01:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/json"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.9ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (67.1ms)
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:02:08 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 799ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rating_img_url_small" for ::1 at 2015-03-11 23:02:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/rating_img_url_small"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (4.4ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (68.6ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:04:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 163ms (Views: 162.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-c82018172e8744faef33466494263d5a.js?body=1" for ::1 at 2015-03-11 23:04:01 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:04:01 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:04:01 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:04:01 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:04:01 -0400
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 23:04:01 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:04:01 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:04:01 -0400
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:04:03 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 470ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:08:39 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 178ms (Views: 177.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:08:40 -0400
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 23:08:40 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:08:40 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:08:40 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:08:40 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:08:40 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:08:40 -0400
+
+
+Started GET "/assets/application-c8b2102c8159f587236bfac7ea7ba524.js?body=1" for ::1 at 2015-03-11 23:08:40 -0400
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:08:42 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 607ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:09:52 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 166ms (Views: 165.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:09:52 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:09:52 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:09:52 -0400
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 23:09:52 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:09:52 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:09:52 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:09:52 -0400
+
+
+Started GET "/assets/application-5cd09c78077d8593bcde4ac405475e4f.js?body=1" for ::1 at 2015-03-11 23:09:52 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 23:09:56 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 129ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:09:57 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:09:57 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:09:57 -0400
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 23:09:57 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:09:57 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:09:57 -0400
+
+
+Started GET "/assets/application-5cd09c78077d8593bcde4ac405475e4f.js?body=1" for ::1 at 2015-03-11 23:09:57 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:09:57 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 23:09:58 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:09:59 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:09:59 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:09:59 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:09:59 -0400
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 23:09:59 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:09:59 -0400
+
+
+Started GET "/assets/application-5cd09c78077d8593bcde4ac405475e4f.js?body=1" for ::1 at 2015-03-11 23:09:59 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:09:59 -0400
+
+
+Started GET "/search?utf8=%E2%9C%93&q=gyms" for ::1 at 2015-03-11 23:10:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/search"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (8.5ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.5ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (67.6ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:10:14 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 146ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-70bc8906590b7281d859fa76d371d9bd.js?body=1" for ::1 at 2015-03-11 23:10:15 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:10:15 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:10:15 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:10:15 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:10:15 -0400
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 23:10:15 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:10:15 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:10:15 -0400
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:10:18 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 454ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:10:20 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 383ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:10:46 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 247ms (Views: 246.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-f42e9673868ad86b4842cd19bdd8e133.js?body=1" for ::1 at 2015-03-11 23:10:46 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:10:46 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:10:46 -0400
+
+
+Started GET "/assets/application-0bd71a5e6ea924c46b8c42b805be13aa.css?body=1" for ::1 at 2015-03-11 23:10:46 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:10:46 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:10:46 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:10:46 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:10:46 -0400
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:10:50 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 604ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/undefined" for ::1 at 2015-03-11 23:10:50 -0400
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.7ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (63.5ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:12:45 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 164ms (Views: 162.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:12:45 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:12:45 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:12:45 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:12:45 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:12:45 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:12:45 -0400
+
+
+Started GET "/assets/application-f42e9673868ad86b4842cd19bdd8e133.js?body=1" for ::1 at 2015-03-11 23:12:45 -0400
+
+
+Started GET "/assets/application-3cce72372696752057fadae46fe6384f.css?body=1" for ::1 at 2015-03-11 23:12:46 -0400
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:13:00 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 476ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/undefined" for ::1 at 2015-03-11 23:13:00 -0400
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (3.8ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (3.9ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (75.4ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=gyms" for ::1 at 2015-03-11 23:13:38 -0400
+
+ActionController::RoutingError (No route matches [GET] "/search"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (5.5ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.8ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (12.3ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (77.9ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:13:45 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:13:45 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:13:45 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:13:45 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:13:45 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:13:45 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:13:45 -0400
+
+
+Started GET "/assets/application-f42e9673868ad86b4842cd19bdd8e133.js?body=1" for ::1 at 2015-03-11 23:13:45 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 23:14:11 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 107ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:14:12 -0400
+
+
+Started GET "/assets/application-3cce72372696752057fadae46fe6384f.css?body=1" for ::1 at 2015-03-11 23:14:12 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:14:12 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:14:12 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:14:12 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:14:12 -0400
+
+
+Started GET "/assets/application-f42e9673868ad86b4842cd19bdd8e133.js?body=1" for ::1 at 2015-03-11 23:14:12 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:14:12 -0400
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:16:14 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 651ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:16:41 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 213ms (Views: 212.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/undefined" for ::1 at 2015-03-11 23:16:54 -0400
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/weston/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (4.1ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.9ms)
+  Rendered /Users/weston/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (64.1ms)
+
+
+Started GET "/" for ::1 at 2015-03-11 23:16:54 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 125ms (Views: 123.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:16:54 -0400
+
+
+Started GET "/assets/application-3cce72372696752057fadae46fe6384f.css?body=1" for ::1 at 2015-03-11 23:16:54 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:16:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:16:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:16:54 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:16:54 -0400
+
+
+Started GET "/assets/application-f42e9673868ad86b4842cd19bdd8e133.js?body=1" for ::1 at 2015-03-11 23:16:54 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:16:54 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 23:18:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 152ms (Views: 151.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:18:34 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:18:34 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:18:34 -0400
+
+
+Started GET "/assets/application-3cce72372696752057fadae46fe6384f.css?body=1" for ::1 at 2015-03-11 23:18:34 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:18:34 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:18:34 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:18:34 -0400
+
+
+Started GET "/assets/application-f329e7d960aabda4b7772a0e9c5e1ea8.js?body=1" for ::1 at 2015-03-11 23:18:34 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 23:18:37 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:18:37 -0400
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:18:37 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:18:37 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:18:37 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:18:37 -0400
+
+
+Started GET "/assets/application-3cce72372696752057fadae46fe6384f.css?body=1" for ::1 at 2015-03-11 23:18:37 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:18:37 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 23:19:11 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 146ms (Views: 145.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:19:11 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:19:12 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:19:12 -0400
+
+
+Started GET "/assets/application-3cce72372696752057fadae46fe6384f.css?body=1" for ::1 at 2015-03-11 23:19:12 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:19:12 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:19:12 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:19:12 -0400
+
+
+Started GET "/assets/application-334a295896d9fafde9c6eac61b674fdd.js?body=1" for ::1 at 2015-03-11 23:19:12 -0400
+
+
+Started GET "/" for ::1 at 2015-03-11 23:21:02 -0400
+Processing by HomeController#index as HTML
+  Rendered home/_form.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 169ms (Views: 167.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds-c881a43a81f5aa96dfba938459f1025f.css?body=1" for ::1 at 2015-03-11 23:21:02 -0400
+
+
+Started GET "/assets/gyms-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:21:02 -0400
+
+
+Started GET "/assets/application-488ae472842b57a5e3e590f8d30adc0e.js?body=1" for ::1 at 2015-03-11 23:21:02 -0400
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-11 23:21:02 -0400
+
+
+Started GET "/assets/application-3cce72372696752057fadae46fe6384f.css?body=1" for ::1 at 2015-03-11 23:21:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-11 23:21:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-11 23:21:02 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-11 23:21:02 -0400
+
+
+Started GET "/apidata.json?term=gyms" for ::1 at 2015-03-11 23:21:06 -0400
+Processing by HomeController#search as JSON
+  Parameters: {"term"=>"gyms"}
+Completed 200 OK in 480ms (Views: 0.2ms | ActiveRecord: 0.0ms)

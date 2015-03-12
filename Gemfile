@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'yelp', require: 'yelp'
+gem 'yelp', require: 'yelp', :github => 'Yelp/yelp-ruby'
 gem 'figaro'
 gem 'omniauth'
 gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'

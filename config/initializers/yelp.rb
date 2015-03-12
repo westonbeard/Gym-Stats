@@ -8,3 +8,4 @@ Yelp.client.configure do |config|
 end
 
 # Yelp.client.search('Washington D.C.', { term: 'food' })
+

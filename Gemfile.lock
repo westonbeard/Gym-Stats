@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/Yelp/yelp-ruby.git
+  revision: 75d23adc8d4f7c05b209f53e328a65710ea899fa
+  specs:
+    yelp (2.0.5)
+      faraday (~> 0.8, >= 0.8.0)
+      faraday_middleware (~> 0.8, >= 0.8.0)
+      simple_oauth (~> 0.2, >= 0.2.0, < 0.3.0)
+
+GIT
   remote: git://github.com/arunagw/omniauth-twitter.git
   revision: cfee770aa3cf804abfd618fa4974ca3643b2f3e6
   specs:
@@ -169,10 +178,6 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (~> 4.0)
       sprockets-rails (>= 2.0, < 4.0)
-    yelp (2.0.4)
-      faraday (~> 0.8, >= 0.8.0)
-      faraday_middleware (~> 0.8, >= 0.8.0)
-      simple_oauth (~> 0.2, >= 0.2.0, < 0.3.0)
 
 PLATFORMS
   ruby
@@ -193,4 +198,4 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
-  yelp
+  yelp!

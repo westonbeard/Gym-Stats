@@ -18,23 +18,24 @@
 	box-sizing:border-box;
 }
 
-html, body, #map-canvas {
-    height: 100%;
+#map-canvas {
+    height: 400px;
     margin: 0px;
     padding-left: 5px;
-    width: 89%;
-    display: inline-block;
+    width: 70%;
 }
 
 #info{
-
-	width:11%;
+	height:;
+	width:30%;
 	float:right;
 	display:inline-block;
+
 }
 
 #info_ul h1{
 	line-height: 22px;
+	position:relative;
 }
 
 form{

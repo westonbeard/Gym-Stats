@@ -4,7 +4,7 @@ class HomeController < ApplicationController
 
 	def search
 		parameters = { term: params[:term],
-									 limit: 6,
+									 limit: 12,
 							 		 category_filter: 'fitness',
 							 		 sort: 0 }
 
