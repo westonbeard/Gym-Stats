@@ -63,11 +63,12 @@ $('#searching_yelp').on('submit',function(e) {
 
 	            $('#info').append($('<a class="list-group-item" style="animation: fadein ' + delay_time  + 's;-webkit-animation: fadein ' + delay_time  + 's;-moz-animation: fadein ' + delay_time  + 's;-ms-animation: fadein ' + delay_time  + 's;-o-animation: fadein ' + delay_time  + 's;"></a>')
 	                              .append(name)
-                                      .append('<img src="' + rating_img_url_small + '">')
-                                      .append('<img src="' + data.businesses[i].image_url + '" alt="..." class="img-thumbnail">')
+                                      .append('<div id="chart' + i + '" style="width:250px;height:200px"></div>')
+                                      .append('<img class="gym-rating" src="' + rating_img_url_small + '">')
+                                      .append('<img src="' + data.businesses[i].image_url + '" alt="..." class="img-thumbnail gym-photo">')
                                       .append(neighborhood)
                                      );
-              
+              drawChart('#chart' + i);
               delay_time += .6;
       	  }
       },
@@ -95,8 +96,86 @@ $(document).ready(function(){
          //grab the name, rating, and other relevant info and append that to an html tag using jQuery
 
 
+var drawChart = function(divId){
+    $(function () {
+        $(document).ready(function () {
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
 
+            var startingCount = Math.random() * 100;
+            $(divId).highcharts({
+                chart: {
+                    type: 'spline',
+                    animation: Highcharts.svg, // don't animate in old IE
+                    marginRight: 10,
+                    events: {
+                        load: function () {
 
+                            // set up the updating of the chart each second
+                            var series = this.series[0];
+                            setInterval(function () {
+                                var x = (new Date()).getTime(), // current time
+                                    y = startingCount + Math.floor(Math.random() * 5);
+                                series.addPoint([x, y], true, true);
+                            }, 1000);
+                        }
+                    }
+                },
+                title: {
+                    text: 'People there now',
+                    style: 'fontSize:12px'
+                },
+                xAxis: {
+                    type: 'datetime',
+                    tickPixelInterval: 150
+                },
+                yAxis: {
+                    title: {
+                        text: 'People'
+                    },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                tooltip: {
+                    formatter: function () {
+                        return '<b>' + this.series.name + '</b><br/>' +
+                            Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+                            Highcharts.numberFormat(this.y, 2);
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                exporting: {
+                    enabled: false
+                },
+                series: [{
+                    name: 'People',
+                    data: (function () {
+                        // generate an array of random data
+                        var data = [],
+                            time = (new Date()).getTime(),
+                            i;
+
+                        for (i = -19; i <= 0; i += 1) {
+                            data.push({
+                                x: time + i * 1000,
+                                y: startingCount + Math.floor(Math.random() * 5)
+                            });
+                        }
+                        return data;
+                    }())
+                }]
+            });
+        });
+    });
+}
 
 
 
