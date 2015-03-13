@@ -46,6 +46,8 @@ $('#searching_yelp').on('submit',function(e) {
       dataType: 'json',
       success: function(data) {
           var delay_time = 0;
+          $('#info').empty(); // clear previous results
+
   	  for (var i=0;i<data.businesses.length; i++){
 	         var name = $('<h4 class="list-group-item-heading">').text(data.businesses[i].name);
 	         var rating = $('<p class="list-group-item-text">').text(data.businesses[i].rating);
