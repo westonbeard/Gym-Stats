@@ -50,7 +50,7 @@ $('#searching_yelp').on('submit',function(e) {
 	         var name = $('<h4 class="list-group-item-heading">').text(data.businesses[i].name);
 	         var rating = $('<p class="list-group-item-text">').text(data.businesses[i].rating);
 	         var rating_img_url_small = data.businesses[i].rating_img_url_small;
-                 var neighborhood = $('<p class="list-group-item-text">').text(data.businesses[i].location.neighborhoods);
+           var neighborhood = $('<p class="list-group-item-text">').text(data.businesses[i].location.neighborhoods);
           var latitude = data.businesses[i].location.coordinate.latitude;
           var longitude = data.businesses[i].location.coordinate.longitude;
           var marker = new google.maps.Marker({
@@ -63,9 +63,10 @@ $('#searching_yelp').on('submit',function(e) {
 	                              .append(name)
                                       .append('<img src="' + rating_img_url_small + '">')
                                       .append('<img src="' + data.businesses[i].image_url + '" alt="..." class="img-thumbnail">')
+                                      .append(neighborhood)
                                      );
               
-              delay_time += .1;
+              delay_time += .6;
       	  }
       },
       type: 'GET'
@@ -81,11 +82,11 @@ $(document).ready(function(){
 
 //on submit
    //making an ajax call to local server
-   //checking for errors
+   //check for errors
    //if successful
       //itterate through results in a for loop
          //assign a variable that will grab the lat and long for each result
-         //grab the name, rating, and other relevant info and append that to an html tag
+         //grab the name, rating, and other relevant info and append that to an html tag using jQuery
 
 
 
