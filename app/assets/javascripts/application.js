@@ -45,7 +45,8 @@ $('#searching_yelp').on('submit',function(e) {
       },
       dataType: 'json',
       success: function(data) {
-  		for (var i=0;i<data.businesses.length; i++){
+          var delay_time = 0;
+  	  for (var i=0;i<data.businesses.length; i++){
 	         var name = $('<h4 class="list-group-item-heading">').text(data.businesses[i].name);
 	         var rating = $('<p class="list-group-item-text">').text(data.businesses[i].rating);
 	         var rating_img_url_small = data.businesses[i].rating_img_url_small;
@@ -58,12 +59,14 @@ $('#searching_yelp').on('submit',function(e) {
              title: data.businesses[i].name
             });
 
-	            $('#info').append($('<a class="list-group-item"></a>')
+	            $('#info').append($('<a class="list-group-item" style="animation: fadein ' + delay_time  + 's;-webkit-animation: fadein ' + delay_time  + 's;-moz-animation: fadein ' + delay_time  + 's;-ms-animation: fadein ' + delay_time  + 's;-o-animation: fadein ' + delay_time  + 's;"></a>')
 	                              .append(name)
                                       .append('<img src="' + rating_img_url_small + '">')
                                       .append('<img src="' + data.businesses[i].image_url + '" alt="..." class="img-thumbnail">')
-                                     )
-      	        };
+                                     );
+              
+              delay_time += .1;
+      	  }
       },
       type: 'GET'
    });
