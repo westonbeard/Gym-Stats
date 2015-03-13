@@ -22,6 +22,12 @@
 .navbar {
     margin-bottom: 0 !important;
 }
+#info {
+    position: relative;
+}
+.list-group-item {
+    position: absolute;
+}
 #map-canvas {
     height: 400px;
     margin: 0px;
@@ -32,30 +38,30 @@
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { left: 700px; }
+    to   { left: 0px; }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { left: 700px; }
+    to   { left: 0px; }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { left: 700px; }
+    to   { left: 0px; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { left: 700px; }
+    to   { left: 0px; }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from { left: 700px; }
+    to   { left: 0px; }
 }
