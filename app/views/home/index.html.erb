@@ -1,27 +1,25 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Gym Stats</a>
+    </div>
 
-<head>
-
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-   
-    <meta charset="utf-8">
-
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-
-</head>
-
-<body>
-
-
-	<%= render 'form' %>
-
-    <div id="map-canvas"></div>
-      <div id="info">
-  		
-			<ul id="info_ul"></ul>
-		
-		</div>
-  
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+      </ul>
+      <%= render 'form' %>
+    </div>
   </div>
+</nav>
 
+<div id="map-canvas" class="col-md-8"></div>
 
-</body>
+<div id="info" class="list-group col-md-4">
+</div>

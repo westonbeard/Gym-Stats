@@ -14,7 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-  
+//= require bootstrap.min
+
 var map;
 function initialize() {
   var mapOptions = {
@@ -45,10 +46,10 @@ $('#searching_yelp').on('submit',function(e) {
       dataType: 'json',
       success: function(data) {
   		for (var i=0;i<data.businesses.length; i++){
-	         var name = $('<h1>').text(data.businesses[i].name);
-	         var rating = $('<p>').text(data.businesses[i].rating);
+	         var name = $('<h4 class="list-group-item-heading">').text(data.businesses[i].name);
+	         var rating = $('<p class="list-group-item-text">').text(data.businesses[i].rating);
 	         var rating_img_url_small = data.businesses[i].rating_img_url_small;
-          var neighborhood = $('<p>').text(data.businesses[i].location.neighborhoods);
+                 var neighborhood = $('<p class="list-group-item-text">').text(data.businesses[i].location.neighborhoods);
           var latitude = data.businesses[i].location.coordinate.latitude;
           var longitude = data.businesses[i].location.coordinate.longitude;
           var marker = new google.maps.Marker({
@@ -57,17 +58,21 @@ $('#searching_yelp').on('submit',function(e) {
              title: data.businesses[i].name
             });
 
-	         $('#info_ul')
-	            .append(name)
-	            .append(rating)
-              .append(neighborhood)
-              .append('<img src="' + rating_img_url_small + '">')
-	            // .append(rating_img_url_small);
-      	};
+	            $('#info').append($('<a class="list-group-item"></a>')
+	                              .append(name)
+                                      .append('<img src="' + rating_img_url_small + '">')
+                                      .append('<img src="' + data.businesses[i].image_url + '" alt="..." class="img-thumbnail">')
+                                     )
+      	        };
       },
       type: 'GET'
    });
 });
+
+$(document).ready(function(){
+    $('#map-canvas').height($(window).height());
+});
+
 
 //type something into the form
 
