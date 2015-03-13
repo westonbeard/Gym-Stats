@@ -76,7 +76,11 @@ $('#searching_yelp').on('submit',function(e) {
 });
 
 $(document).ready(function(){
-    $('#map-canvas').height($(window).height());
+    if($(window).width() > 500) {
+        $('#map-canvas').height($(window).height());
+    } else {
+        $('#map-canvas').height('300px');
+    }
 });
 
 
