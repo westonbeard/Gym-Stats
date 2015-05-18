@@ -1,5 +1,4 @@
-stark-inlet-5138.herokuapp.com
-
+gymstats.herokuapp.com
 
 
 Gym Stats is a web app that allows the user to see nearby workout studios (currently hard-coded to D.C.), a quick review of each studio, it's location, and a quick graph of the current population of the gym.
